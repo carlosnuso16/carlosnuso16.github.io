@@ -1,7 +1,25 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
 }
 h1 {
     color: #333;
+}
+
+
+header {
+  position: relative; /* This is the anchor for the byline */
+  padding: 20px; /* Example: give your header some space */
+}
+
+.site-byline {
+  position: absolute; /* This "un-sticks" it from the normal flow */
+  top: 20px;     /* Match the header padding (or set to 0) */
+  right: 20px;   /* Match the header padding (or set to 0) */
+  
+  /* These are for style - make it subtle! */
+  font-size: 0.8rem;
+  color: #555; /* A dark gray is often better than pure black */
+  margin: 0; /* Resets any default paragraph margin */
 }
