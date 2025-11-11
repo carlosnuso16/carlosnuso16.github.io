@@ -23,3 +23,10 @@ header {
   color: #555; 
   margin: 0; 
 }
+
+.indented-block {
+    padding-left: 40px;
+    font-style: italic;
+    border-left: 3px solid #ccc;
+    margin-left: 20px;
+}
